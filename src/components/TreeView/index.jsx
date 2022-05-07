@@ -2,6 +2,8 @@ import React from 'react'
 
 import { ArrowUp, ArrowDown } from '../../assets/Icon'
 
+import { Parent, Node, Children, Icon } from './styles'
+
 const TreeView = ({ data, onSelection, onToggle }) => {
 	if (data.length === 0) {
 		return <div>No Folders!</div>

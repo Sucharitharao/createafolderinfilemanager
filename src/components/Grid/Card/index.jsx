@@ -26,6 +26,9 @@ import useClick from '../../../utils/useClick'
 // Assets
 import { FolderCloseIcon, FileText } from '../../../assets/Icon'
 
+// Styles
+import { CardWrapper, Thumb } from './styles'
+
 const Card = ({ item }) => {
 	const { addToast } = useToasts()
 	const { dispatch } = React.useContext(Context)

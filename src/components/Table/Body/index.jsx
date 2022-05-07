@@ -3,6 +3,10 @@ import React from 'react'
 // Components
 import TableRow from '../Row'
 
+// Styles
+import { BodyWrapper } from './styles'
+
+
 const Body = ({ items }) => {
 	return (
 		<BodyWrapper>

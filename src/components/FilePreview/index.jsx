@@ -4,6 +4,9 @@ import PropTypes from 'prop-types'
 // State
 import { Context } from '../../state/context'
 
+// Styles
+import { FilePreviewWrapper, Header, Details, Thumbnail } from './styles'
+
 // Helper Functions
 import convertFileSize from '../../utils/convertFileSize'
 

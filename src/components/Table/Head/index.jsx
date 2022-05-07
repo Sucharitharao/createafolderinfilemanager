@@ -3,6 +3,9 @@ import React from 'react'
 // Context
 import { Context } from '../../../state/context'
 
+// Styles
+import { HeadWrapper, Column } from './styles'
+
 const Head = () => {
 	const { state, dispatch } = React.useContext(Context)
 	const sortItems = by => {

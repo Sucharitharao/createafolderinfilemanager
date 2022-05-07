@@ -3,6 +3,8 @@ import React from 'react'
 // State
 import { Context } from '../../state/context'
 
+// Styles
+import { NavbarWrapper, Breadcrumbs, Search, SwitchView } from './styles'
 
 // Assets
 import { ChevronRightIcon, ListIcon, GridIcon } from '../../assets/Icon'

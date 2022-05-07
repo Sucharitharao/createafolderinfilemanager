@@ -6,6 +6,9 @@ import { Context } from '../../state/context'
 // Components
 import { FileExplorer } from '../../components'
 
+// Styles
+import { SidebarWrapper, SidebarActions } from './styles'
+
 // Assets
 import { ExpandIcon, CollapseIcon } from '../../assets/Icon'
 

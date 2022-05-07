@@ -5,6 +5,8 @@ import { useToasts } from 'react-toast-notifications'
 // Components
 import { Modal } from '../../../components'
 
+// Styles
+import { Wrapper } from './styled'
 
 // Queries
 import { GET_FOLDER, CREATE_FOLDER } from '../../../queries'

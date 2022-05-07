@@ -7,6 +7,9 @@ import { Context } from '../../state/context'
 // Components
 import TreeView from '../TreeView'
 
+// Styles
+import { FileExplorerWrapper } from './styles'
+
 // Queries
 import { GET_NESTED_FOLDER } from '../../queries'
 
